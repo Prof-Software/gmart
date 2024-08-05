@@ -24,13 +24,12 @@ import {
   SiLeagueoflegends,
 } from "react-icons/si";
 import supercell from "../assets/supcell.png";
-import Ticker from "react-ticker";
+import Marquee from "react-fast-marquee";
 const Headline = () => {
   return (
     <div className="scroll-container text-4xl pb-8 text-white">
-        <Ticker chain>
-        {({ index }) => (
-            <>
+        <Marquee>
+
              <div className="scroll-content flex gap-8">
           <SiEpicgames />
           <SiAdobephotoshop />
@@ -56,9 +55,7 @@ const Headline = () => {
           <SiUnrealengine />
           <SiTwitch className="mr-4" />
         </div>
-            </>
-        )}
-    </Ticker>
+        </Marquee>
        
     </div>
   );
