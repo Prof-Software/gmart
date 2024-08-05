@@ -15,7 +15,7 @@ const Header = () => {
             placeholder="Browse Now"
           />
         </div>
-        <img src={headimg} alt="headerimg" className="h-[60vh]" />
+        <img src={headimg} draggable={false} alt="headerimg" className="h-[60vh]" />
       </div>
       <Headline/>
     </div>
