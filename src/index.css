@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pixelify+Sans:wght@400..700&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.pixelify{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.bebas-neue {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.div-gradient {
+  background: linear-gradient(135deg, #141e30, #243b55);
+  background: -webkit-linear-gradient(135deg, #141e30, #243b55, #7b4397, #dc2430);
+  background: -o-linear-gradient(135deg, #141e30, #243b55, #7b4397, #dc2430);
+  background: -moz-linear-gradient(135deg, #141e30, #243b55, #7b4397, #dc2430);
+  background: linear-gradient(135deg, #141e30, #243b55, #7b4397, #dc2430);
+}
