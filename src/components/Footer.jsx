@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full bg-black text-gray-400 flex items-center justify-between p-6'>
+    <div className='w-full bg-black text-gray-400 flex items-center justify-between p-6 cursor-default'>
         <div>
             <h4 className='text-sm font-sans mb-3'>Games Mart is an all-inclusive online platform for everything related to gaming. We are committed to advancing innovations for the benefit of the gaming community</h4>
             <div className='flex text-xs'>
